@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>de.hpi.isg</groupId>
+		<artifactId>rdfind</artifactId>
+		<version>0.0.2-SNAPSHOT</version>
+	</parent>
+	<artifactId>rdfind-flink</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>de.hpi.isg</groupId>
+			<artifactId>sodap-util</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.hpi.isg</groupId>
+			<artifactId>rdf-converter</artifactId>
+		</dependency>
+	</dependencies>
+	<description>Common (domain-independent) functionality and utilites for the work with Apache Flink.</description>
+</project>
